@@ -9,6 +9,7 @@ import {
   Input,
   Button
 } from "reactstrap";
+import DatePicker from 'react-date-picker';
 
 import Room from "./room";
 
