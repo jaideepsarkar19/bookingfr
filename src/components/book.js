@@ -87,7 +87,7 @@ export default props => {
   useEffect(() => {
     // Check availability of rooms from DB when a date and time is selected
     if (selection.time && selection.date) {
-      (async _ => {
+      (async () => {
         let datetime = getDate();
         let res = await fetch("https://hall-booking-server-i6po.onrender.com/availability", {
           method: "POST",
