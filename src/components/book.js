@@ -89,7 +89,7 @@ export default props => {
     if (selection.time && selection.date) {
       (async _ => {
         let datetime = getDate();
-        let res = await fetch("hhttps://hall-booking-server-i6po.onrender.com/availability", {
+        let res = await fetch("https://hall-booking-server-i6po.onrender.com/availability", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
